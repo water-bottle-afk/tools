@@ -6,6 +6,10 @@ import struct
 
 """
 dns server.
+in order for it to work, you need to change the dns the pc uses.
+you can do that through winkey+r -> ncpa.cpl -> properties
+-> change the local dns of the ipv4 to any ip of a.b.c.d where each is between 0-255 including.
+(works bcz the server listens on 0.0.0.0).
 """
 
 dict_of_addresses = {"www.google.com": "157.240.22.35", # for instance typing google would get the facebook's ip
